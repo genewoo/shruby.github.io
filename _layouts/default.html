@@ -14,8 +14,9 @@
         <!-- <link rel="stylesheet" href="/css/main.css"> -->
 
         <!-- pure CSS -->
-        <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.3.0/pure.css">
-        <link rel="stylesheet" href="http://purecss.io/combo/1.7.8?/css/layouts/blog.css">        
+        <!-- <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.3.0/pure.css"> -->
+        <!-- <link rel="stylesheet" href="http://purecss.io/combo/1.7.8?/css/layouts/blog.css">         -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
         <style type="text/css">
             .header h1,.hero h1,.hero h2,.tk-omnes-pro 
             {
@@ -58,20 +59,18 @@
 
     </head>
     <body>
-        <div class="pure-g-r" id="layout">
-        <div class="sidebar pure-u">
-          {% include header.html %}
-        </div>
-
-          <div class="pure-u-1">
-            <div class="content">
-            {{ content }}
+        <div class="container">
+            <div class="navbar navbar-default">
+                {% include header.html %}
             </div>
-          </div>
-
-          <div class="pure-u-1">
-            {% include footer.html %}
-          </div>
+            <div class="body">
+                <div class="content">
+                    {{ content }}
+                </div>
+            </div>
+            <div class="footer">
+                {% include footer.html %}
+            </div>
         </div>
         {% include ga.html %}
     </body>

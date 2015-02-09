@@ -1,17 +1,14 @@
 ---
 layout: default
 ---
-<h1>赞助公司</h1>
-<div class="highlight"><pre><code class="text language-text" data-lang="text">
-</code></pre></div>
-<hr>
+<div class="panel panel-default">
+  <div class="panel-heading"><h2>赞助公司（排名不分前后）</h2></div>
+  <div class="panel-body">
 {% for sponsor in site.data.sponsors %}
-    <p>
+    <h4>
       <a href="{{ sponsor.url }}"><img src="{{ sponsor.image }}" alt="{{ sponsor.name }}" /></a>
-    </p>
-    <div class="highlight">
-      <pre>
-<code class="text language-text" data-lang="text">{{ sponsor.introduction }}</code>
-    </div>
-  {% endfor %}
-<hr>
+    </h4>
+    <blockquote><h5>{{ sponsor.introduction }}</h5></blockquote>
+ {% endfor %}
+  </div>
+</div>

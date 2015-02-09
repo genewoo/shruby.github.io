@@ -1,23 +1,21 @@
-<header class="header">  
-
-  <hgroup>
-    <a href="/" class="brand-title">{{ site.name }}</a>
-    <!-- <h2 class="brand-tagline">Creating a blog layout using Pure</h2> -->
-  </hgroup>
-   <nav class="nav">
-                <ul class="nav-list">
-                    <li class="nav-item">
-                        <a href="/" class="pure-button">动态</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="/members.html" class="pure-button">成员</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="/about.html" class="pure-button">关于我们</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="/sponsors.html" class="pure-button">赞助方</a>
-                    </li>
-                </ul>
-            </nav>
-</header>
+<div class="container-fluid">  
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">{{ site.name }}</a>
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+            <li><a href="/">动态</a></li>
+            <li><a href="/members.html">成员</a></li>
+            <li><a href="/about.html">关于我们</a></li>
+            <li><a href="/sponsors.html">赞助方</a></li>
+        </ul>
+    </div>
+</div>

@@ -21,6 +21,12 @@
   twitter: gene_wu
   self_intro: 非典型 Ruby 程序员，喜好 Unix 系统以及 CLI，在上海工作生活 10 多年。LifeHacker，从小学起开始拆装各类电子器件为乐。现在在某企业中开发移动应用为生。
 
+- name: huntervwang
+  github: huntervwang
+  ruby_china: hunter_v_wang
+  twitter: huntervwang
+  self_intro: 王欢，Android 开发者，技术研究及应用爱好者。目前在微盟负责Android项目开发。
+
 - name: JiaYang Song
   github: songjiayang
   self_intro: 宋佳洋，阳光 90 后， Ruby 程序员，喜欢创业，技术分享， 四川眉山人，2013/04/28 一个人开始闯荡上海滩，目前工作于在 www.gigabase.org.
@@ -61,9 +67,3 @@
   ruby_china: xfstart07
   twitter: xfstart07
   self_intro: 徐飞，喜欢Linux 和Ruby 。刚来上海没多久，目前在邻里缘工作。
-  
-- name: huntervwang
-  github: huntervwang
-  ruby_china: hunter_v_wang
-  twitter: huntervwang
-  self_intro: 王欢，Android 开发者，技术研究及应用爱好者。目前在微盟负责Android项目开发。

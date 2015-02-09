@@ -19,3 +19,11 @@
   url: http://anquanbao.com
   image: http://anquanbao.com/img/home/logo.jpg
   introduction: 安全宝为网站和移动应用提供零部署、零维护的一站式云安全防护、CDN加速、页面优化以及深度数据分析和水晶报表展现。
+- name: 安全宝
+  url: http://coding.net
+  image: https://coding.net/static/5ee8025c9dc63a6ff53153705d0e7ce8.png
+  introduction: Coding 是一个面向开发者的云端开发平台，目前提供代码托管，运行空间，质量控制，项目管理等功能。Coding 提供社会化协作功能，包含了社交元素，为开发者提供技术讨论和协作平台。
+- name: segmentfault
+  url: http://segmentfault.com/
+  image: /assets/images/sflogo.png
+  introduction: SegmentFault 是中国领先的开发者社区。经过两年多的发展，已经聚集了数十万的开发者。我们的目标是为中文开发者提供一个最纯粹的技术交流平台，一起创造属于开发者的时代！
